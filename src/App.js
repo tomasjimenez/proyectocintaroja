@@ -1,11 +1,11 @@
 import React from 'react';
-import Profile from './components/Profile';
 import './App.css';
+import './containers/CreaTuCuenta'
 
 function App() {
   return (
     <div>
- 
+      
     </div>
   );
 }
