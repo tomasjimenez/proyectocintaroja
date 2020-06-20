@@ -74,7 +74,7 @@ const Home = () => {
                 <h1 className="text-center"><strong>Cursos destacados</strong></h1>
                 <div class="mx-auto">
                     <div className="col-md-12 col-md-6 col-lg-3 ">
-                        <div className="card md-5">
+                        <div className="card">
                             <img src={music} className="card-img-top" alt="Class thumbnail" />
                             <div className="card-body">
                                 <h5 className="card-title text-uppercase">title</h5>
@@ -84,7 +84,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="col-md-12 col-md-6 col-lg-3">
-                        <div className="card md-5">
+                        <div className="card">
                             <img src={music} className="card-img-top" alt="Class thumbnail" />
                             <div className="card-body">
                                 <h5 className="card-title text-uppercase">title</h5>
@@ -94,7 +94,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="col-md-12 col-md-6 col-lg-3">
-                        <div className="card md-5">
+                        <div className="card">
                             <img src={music} className="card-img-top" alt="Class thumbnail" />
                             <div className="card-body">
                                 <h5 className="card-title text-uppercase">title</h5>
