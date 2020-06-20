@@ -4,6 +4,7 @@ import AboutProfile from '../components/AboutProfile';
 import PointsProfile from '../components/PointsProfile';
 import HistoryProfile from '../components/HistoryProfile';
 import CollaborationProfile from '../components/CollaborationProfile';
+import { Link } from 'react-router-dom';
 
 const Profile = () => {
 
@@ -40,7 +41,7 @@ const Profile = () => {
                 </div>
                 <div className="col-md-8">
                     <div className="card bg-light mb-3">
-                        {about && <AboutProfile />} 
+                        {about && <AboutProfile />}
                         {points && <PointsProfile />}
                         {history && <HistoryProfile />}
                         {collaboration && <CollaborationProfile />}
