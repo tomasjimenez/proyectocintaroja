@@ -4,11 +4,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import login from './components/login';
 import Profile from './components/Profile';
-<<<<<<< HEAD
 import CourseView from './components/CourseView';
-import { BrowserRouter, Route } from 'react-router-dom';
-=======
->>>>>>> 2fbb25b6f13415269cf0ce804c9aa33d628dd60a
 import CategoryContainer from './containers/CategoryContainer';
 import Home from './containers/Home';
 import { BrowserRouter, Route } from 'react-router-dom';
