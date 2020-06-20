@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import login from './components/login';
+import Login from './components/Login';
 import Profile from './components/Profile';
 import CourseView from './components/CourseView';
 import CategoryContainer from './containers/CategoryContainer';
@@ -18,6 +18,7 @@ function App() {
         <main>
           <Route exact path="/" component={Home} />
           <Route exact path="/profile" component={Profile} />
+          <Route exact path="/login" component={Login} />
           <Route exact path="/categories" component={CategoryContainer} />
           <Route exact path="/login" component={login} />
           <Route exact path="/course" component={CourseView} />
