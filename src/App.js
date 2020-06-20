@@ -4,7 +4,7 @@ import './App.css';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
-import login from './components/login';
+import Login from './components/Login';
 import Profile from './components/Profile';
 import { BrowserRouter, Route } from 'react-router-dom';
 import CategoryContainer from './containers/CategoryContainer';
@@ -19,7 +19,7 @@ function App() {
 
         <main>
           <Route exact path="/profile" component={Profile} />
-          <Route exact path="/login" component={login} />
+          <Route exact path="/login" component={Login} />
         </main>
 
         < Footer />
