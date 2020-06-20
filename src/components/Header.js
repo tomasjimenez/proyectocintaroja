@@ -26,7 +26,7 @@ const Header = () => {
                     <form className="form-inline my-2 my-lg-">
 
                         < Login2 />
-                        <Link to="/login"><button className="btn font-weight-bolder text-light my-2 my-sm-0 bg-info" type="submit">Regístrate</button></Link>
+                        <Link to="/login"><button className="btn font-weight-bolder text-light my-2 my-sm-0 bg-info" type="submit">Iniciar Sesión</button></Link>
                     </form>
                 </div>
             </nav>

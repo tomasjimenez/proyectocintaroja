@@ -38,7 +38,9 @@ const Login = () => {
                 <div className="botoniniciosesion">
 
                     <a href="./miperfil.html">INICIAR SESION</a>
+                    
                 </div>
+                <a>Crear cuenta</a>
             </section>
         </div>
     );
