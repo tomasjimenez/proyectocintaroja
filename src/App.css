@@ -17,11 +17,129 @@
   text-align: center;
   color: azure;
   padding: .5rem;
+  position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer p{
   margin: 0;
+  
 }
+
+/*Home*/
+.hero-banner{
+ width: 100%;
+height: 100%!important;
+}
+
+.container-banner{
+  width: 70%!important;
+  padding-top: 3% ;
+  padding-bottom: 3%;
+  background-color: rgba(255,255,255,0.5);
+  text-align: center;
+
+}
+
+.title-banner{
+  font-weight: bolder!important;
+}
+
+.info{
+  background-color: #66b9bf;
+  width: 100%;
+}
+
+.info>div.right{
+  float: right;
+}
+
+.info>div.right>img{
+  height: auto;
+}
+
+.steps{
+  background-color: #504867;
+}
+
+.steps h1{
+  color: #ffffff;
+}
+
+.steps h1{
+ text-align: center;
+ padding-top: 2rem;
+ padding-bottom: 4rem;;
+}
+
+.content-steps .card{
+  display: inline-block;
+  margin: 2rem;
+  text-align: center;
+}
+
+.content-steps .card img{
+  width: 50%;
+  padding: 1rem;
+}
+
+.content-steps{
+  margin: 0 auto;
+}
+
+.left , .right{
+  width: 50%;
+  display: inline-block;
+}
+
+.about{
+  color: #ffffff;
+  padding: 5%;
+}
+
+a.cta{
+  background-color: #45AAb4!important;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #ffffff!important;
+  font-weight: bold;
+}
+
+.featured div{
+  display: inline-block;
+  margin: 1rem;
+}
+
+.featured h1{
+  padding-top: 2rem;
+}
+
+.more{
+  background-color: #504867 !important;
+  color: #ffffff!important;
+  font-weight: bolder!important;
+  margin-bottom:2rem;
+}
+
+.login-google{
+  border-radius: 5px;
+  padding: .5rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  background-color: #66b9bf;
+  border: none;
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+.login-header p, .login-header p {
+  display: inline-block;
+  
+}
+
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

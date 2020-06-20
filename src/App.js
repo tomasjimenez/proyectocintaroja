@@ -6,8 +6,9 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import login from './components/login';
 import Profile from './components/Profile';
-import { BrowserRouter, Route } from 'react-router-dom';
 import CategoryContainer from './containers/CategoryContainer';
+import Home from './containers/Home';
+import { BrowserRouter, Route } from 'react-router-dom';
 
 
 
@@ -16,12 +17,12 @@ function App() {
     <div>
       <BrowserRouter>
         <Header />
-
         <main>
+          <Route exact path="/" component={Home} />
           <Route exact path="/profile" component={Profile} />
+          <Route exact path="/categories" component={CategoryContainer} />
           <Route exact path="/login" component={login} />
         </main>
-
         < Footer />
       </BrowserRouter>
     </div>
