@@ -104,7 +104,6 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <Link to="#" class="btn btn-lg more mx-auto" >Ver más cursos</Link>
             </div>
         </div >
     )

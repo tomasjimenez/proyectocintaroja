@@ -1,15 +1,12 @@
 import React from 'react';
-
+import './index.css';
 
 const Footer = () => {
     return (
-        <div>
-            <div className="footer bg-info">
-                <p>Made with &hearts; <strong>Truequeo&reg;</strong>  </p>
-                <p><small>Derechos Reservados &#60;Batch41 Cinta Roja Dev.F> </small></p>
-                <p><small>2020</small></p>
-            </div>
-        </div>
+        
+        <footer className="footer bg-info">
+            <p><small>Derechos Reservados 2020 | <b>TRUEQUEO ©</b> | Batch42 Cinta Negra Dev.F</small></p>
+        </footer>
     )
 }
 
