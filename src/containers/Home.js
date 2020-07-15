@@ -67,7 +67,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <Link to="#" class="btn btn-lg cta" >Registrame</Link>
+                    <Link to="./NuevoUsuario" class="btn btn-lg cta" >Registrame</Link>
                 </div>
             </div >
             <div className="featured fluid-container ">

@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header';
+import NuevoUsuario from './components/NuevoUsuario';
 import Footer from './components/Footer';
 import Login from './components/login';
 import Profile from './components/Profile';
@@ -21,6 +22,7 @@ function App() {
           <Route exact path="/login" component={Login} />
           <Route exact path="/categories" component={CategoryContainer} />
           <Route exact path="/course" component={CourseView} />
+          <Route exact path="/nuevousuario" component={NuevoUsuario} />
         </main>
         < Footer />
       </BrowserRouter>
