@@ -1,9 +1,6 @@
 import React from "react";
 import './login.css';
 
-
-
-
 const Login = () => {
     return (
 
@@ -40,7 +37,7 @@ const Login = () => {
                     <a href="./miperfil.html">INICIAR SESION</a>
                     
                 </div>
-                <a>Crear cuenta</a>
+                <a href="./NuevoUsuario">CREAR CUENTA</a>
             </section>
         </div>
     );
